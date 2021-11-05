@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+       *{
+           padding: 0;
+           margin: 0;
+           
+       }
+
+       body{
+           box-sizing: border-box;
+           font-family: 'Nunito Sans', sans-serif;
+           /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+           margin: 0;
+           padding: 0;
+
+       }
+
+       html{
+           font-size: 62.5%;
+       }
+       .header{
+           padding: 1rem;
+           /* text-align: center; */
+           font-weight: 500;
+       }
+
+       .header ul{
+           list-style: none;
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+           width: 100%;
+           padding: .5rem;
+       }
+
+       .header ul li{
+           padding: .5rem;
+       }
+
+       .header ul li a {
+           font-size: 2.5rem;
+           text-decoration: none;
+       }
+
+        .main2{
+            min-height: 100vh;
+            width: 100%;
+            /* padding: 1rem; */
+            background-color: thistle;
+            
+        }
+
+        .wrapper2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            flex-direction: column;
+            position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%,-50%);
+        }
+
+        .wrapper2 h1{
+           font-size: 3rem;
+           color: #080d16;
+           padding: 1rem;
+           border: 2px solid #fff;
+        }
+
+        .wrapper2 button{
+            padding: .8rem;
+             outline: transparent;
+             border: none;
+             width: 14rem;
+             background-color: #ee7edf;
+             font-size: 1.6rem;
+             margin: 1rem auto;
+             border-radius: .3rem;
+             font-weight: 500;
+        }
+
+        
+
+
+
+       
+    </style>
+</head>
+<body>
+    
+
+   
+
+
+
+<main class="main2">
+
+    <header class="header">
+        <ul>
+            <li><a href="">Hexcode</a></li>
+            <li><a href="rgba.html">Rgba Colors</a></li>
+        </ul>
+    </header>
+
+    <div class="wrapper2">
+<h1 class="changehexcode">code</h1>
+<button class="hexbtn">change colour</button>
+</div>
+</main>
+   
+
+<script src="index.js"></script>
+
+
+</body>
+</html>
